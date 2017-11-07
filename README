@@ -11,7 +11,7 @@ Steps --
 
 2. If zip then extract.
 
-3. Otherwise on termainl run make for compilation and linking with libraries.
+3. On terminal run "make" for compilation and linking with libraries.
 
 4. Then ./mpmc (N_P)(N_C)(SLEEP)(ITEMS)(BUFFER) 
 N_P = Number of Producers
