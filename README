@@ -1,0 +1,22 @@
+SHREYANSH MOHNOT
+CSCI 50300
+LAB 2
+
+How to run my program - 
+
+Steps --
+
+Step 1. Open Terminal in Linux Machine.
+
+Step 2. sh@ubuntu:~/Code$ gcc code.c
+
+Step 3. sh@ubuntu:~/Code$ ./a.out
+
+SHM V 
+Performance = 1.064665
+
+Socket
+Performance = 2.254564
+
+POSIX
+Performance = 1.856431
