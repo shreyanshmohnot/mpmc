@@ -1,22 +1,25 @@
-SHREYANSH MOHNOT
-CSCI 50300
-LAB 2
+Multiple Producer Multiple Consumer Problem by SHREYANSH MOHNOT
+
+An full implementation of multiple producer and consumer problem with semaphore library and circular ring buffer for buffering of items. Semaphore implementation using pthread mutex and condition variables. Using three semaphore for implementation of this problem.
+Semaphore Mutex, Semaphore Empty & Semaphore Fill.
 
 How to run my program - 
 
 Steps --
 
-Step 1. Open Terminal in Linux Machine.
+1. Pull from github.com/shreyanshmohnot/mpmc.git
 
-Step 2. sh@ubuntu:~/Code$ gcc code.c
+2. If zip then extract.
 
-Step 3. sh@ubuntu:~/Code$ ./a.out
+3. Otherwise on termainl run make for compilation and linking with libraries.
 
-SHM V 
-Performance = 1.064665
+4. Then ./mpmc (N_P)(N_C)(SLEEP)(ITEMS)(BUFFER) 
+N_P = Number of Producers
+N_C = Number of Consumers
+SLEEP = Total Sleep Seconds
+ITEMS = Items to produce for producer
+BUFFER = Circular Ring Buffer Size
 
-Socket
-Performance = 2.254564
+5. It requires five arguments to run successfully.
 
-POSIX
-Performance = 1.856431
+Thanks for viewing.
